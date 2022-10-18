@@ -28,8 +28,8 @@ contract BEP20 is Context, IBEP20, Ownable {
 
 
   constructor() {
-    _name = "VORBIT";
-    _symbol = "VBIT";
+    _name = "IECTOKEN";
+    _symbol = "IEC";
     _decimals = 18;
     _totalSupply = 50000000 * 1e18;
     _balances[msg.sender] = _totalSupply;
